@@ -1,0 +1,138 @@
+.l-header{
+    width: 100%;
+    height: var(--header-height);
+    background-color: rgba(255, 255, 255, 0.4);
+ 
+    transition: all 400ms ease;
+}
+.navbar{
+    justify-content: space-between;
+    padding: 20px;
+}
+ span{
+     margin-left: 27%;
+     margin-bottom: 10px;
+    font-size: 221%;
+     font-family: 'Great Vibes', cursive ;
+     color: #9985BD
+ }
+
+
+ .hora{
+    margin-left: 9px;
+    margin-top: 102px;
+    width: 184px;
+    height: 23px;
+     
+ }
+
+ .nome{
+    margin-top: 163px;
+    margin-left: -196px;
+    position: absolute;
+    width: 184px;
+    height: 23px;
+ }
+
+ .func{
+
+    margin-top: 221px;
+    margin-left: -196px;
+    position: absolute;
+    width: 184px;
+    height: 23px;
+
+ }
+
+ label{
+     margin-left: 330px;
+     font-family: 'Great Vibes', cursive ;
+     
+ }
+.nomeL{
+    position: absolute;
+    margin-top: 167px;
+    margin-left: -500px;
+ }
+
+ .funcL{
+    position: absolute;
+    margin-top: 226px;
+    margin-left: -500px;
+ }
+ 
+
+ .dataL{
+     
+     margin-right: 40px;
+ }
+
+ .serv{
+    margin-top: 283px;
+    margin-left: -198px;
+    position: absolute;
+    width: 184px;
+    height: 23px;
+ }
+
+ .servL{
+    position: absolute;
+    margin-top: 283px;
+    margin-left: -448px;
+
+ }
+
+
+ .enviar{
+    position: absolute;
+    margin-top: 336px;
+    margin-left: -160px;
+
+    width: 110px;
+    
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: transparent;
+    color: var(--white-color);
+    border: 1px solid #D0D3EA;
+    border-radius: 50px;
+   
+    text-transform: uppercase;
+    line-height: var(--normal-font-size);
+    padding: 10px 20px;
+    outline: none;
+    cursor: pointer;
+    transition: all 400ms ease;
+ 
+ }
+
+ .enviar:hover{
+    background-color: #D0D3EA;
+    color: var(--first-color);
+ }
+
+
+ td{
+    color: black;
+    padding: 8px;
+    
+}
+
+
+table{
+    margin-left: 2%;
+    margin-top: 330px;
+    background-color: #D0D3EA;
+    border-radius: 15%;
+    border: white;
+    padding: 9px;
+   
+}
+
+
+
+a{
+    text-decoration: none;
+    color: black;
+}

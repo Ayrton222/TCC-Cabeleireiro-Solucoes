@@ -1,0 +1,116 @@
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    background-image: url('../img/cabeleireiro34.png');
+    background-repeat: no-repeat;
+  
+}
+.box{
+    color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin-left: 50px;
+    padding: 100px;
+    border-radius: 100px;
+    width: 60%;
+}
+fieldset{
+    
+}
+legend{
+    
+    padding: 10px;
+    text-align: center;
+    background-color: wheat;
+    border-radius: 8px;
+}
+
+.btn{
+    width: 116px;
+        /* display: flex; */
+        /* align-items: center; */
+        justify-content: center;
+        text-align: center;
+        background-color: transparent;
+        color: white;
+        border: 1px solid transparent;
+        border-radius: 48px;
+        text-transform: uppercase;
+        line-height: var(--normal-font-size);
+        padding: 10px 19px;
+        outline: none;
+        cursor: pointer;
+        transition: all 400ms ease;
+        margin-top: 19px;
+        
+        
+}
+.btn:hover{
+    background-color: black;
+    color: var(--first-color);
+}
+
+.btno{
+    width: 116px;
+        /* display: flex; */
+        /* align-items: center; */
+        justify-content: center;
+        text-align: center;
+        background-color: transparent;
+        color: black;
+        border: 1px solid transparent;
+        border-radius: 48px;
+        text-transform: uppercase;
+        line-height: var(--normal-font-size);
+        padding: 15px 19px;
+        outline: none;
+        cursor: pointer;
+        transition: all 400ms ease;
+        margin-top: 19px;
+        margin-left: 284px;
+        margin-bottom: 46px;
+    
+        
+}
+.btno:hover{
+    background-color: black;
+    color: var(--first-color);
+}
+
+span{
+    
+    padding: 2px;
+    color: white ;
+    position: relative;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+.box a:visited {
+   color:wheat;
+    background-color: black;
+    text-decoration: none;
+}
+
+ a:hover {
+    color: wheat;
+   
+    text-decoration: none;
+}
+
+.cadastrar{
+    padding: 2px;
+    color: white ;
+    position: relative;
+    margin-left: 289px;
+}
+
+  .cadastrar .cad  {
+    text-decoration: wheat;
+    color: wheat;
+}

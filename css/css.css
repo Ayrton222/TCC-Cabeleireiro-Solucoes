@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+
+}
+
+body {
+    background: #1b2029;
+    color: white;
+    font-weight: 500;
+    display: flex;
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+.row{
+
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h3{
+
+    color:  #8880fe;
+    font-size: 3rem;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form label {
+
+    display: flex;
+    flex-direction: column;
+}
+
+form label, input {
+
+    font-size: 1.1rem;
+    margin-top: 2rem;
+}
+
+.btn, .btno{
+    cursor: pointer;
+    width: 70%;
+    margin-top: 2rem;
+    border: none;
+    border-radius: 32px;
+    background:  #6C63FF;
+    color: white;
+    font-size: 1.1rem;
+    transition: all .3s ease-in-out;
+}
+
+.btno a:link{
+   
+    text-decoration: none;
+}
+
+section.imagens {
+    width: 50vw;
+    display: flex;
+    align-items: flex-end;
+    padding: 4rem;
+   
+
+}
+
+section.imagens img{
+    width: 85%;
+}
+
+
+@media only screen and (max-width: 900px) {
+    section.images {
+        display: none;
+        visibility: hidden;
+    }
+
+    main {
+        width: 100vw;
+    }
+}
+
+
+@media only screen and (max-width: 450px) {
+ h3 {
+        font-size: 2rem;
+    }
+
+     form label input, form input {
+        font-size: 1rem;
+    }
+}
+
+ form input {
+    background:  #161923;
+    width: 300px;
+    height: 50px;
+    padding: 0 0.5rem;
+    margin-top: 1rem;
+    outline: none;
+    color: rgba(166, 166, 166);
+    font-size: 1rem;
+    border: 1px solid  #040b18;
+    border-radius: 8px;
+}
+
+img{
+
+    height: 3vw;
+    width: 3vw;
+    
+}
+
+.cancelar {
+
+    cursor: pointer;
+    width: 70%;
+    margin-top: 1rem;
+    border: none;
+    border-radius: 32px;
+    background:  #6C63FF;
+    color: white;
+    font-size: 1.1rem;
+    transition: all .3s ease-in-out;
+}
+
+.cancelar a {
+    text-decoration: none;
+    color: white;
+    padding: 23vh;
+}
+
+
+.text form {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+table {
+    
+    border: 5px;
+    
+    margin-right: 5vh;
+}
+
+td{
+    padding: 1.5vh;
+
+    margin-left: 4vh;
+    margin-right: 5vh;
+}
+
+.cadastrar {
+    
+    cursor: pointer;
+    width: 70%;
+    margin-top: 1rem;
+    border: none;
+    border-radius: 32px;
+    background:  #6C63FF;
+    color: white;
+    font-size: 1.1rem;
+    transition: all .3s ease-in-out;
+
+    
+
+}
+
+.cadastrar a {
+    padding-left: 17vh;
+    text-decoration: none;
+    color: white;
+}
+
+.btno a{
+    text-decoration: none;
+    color: white;
+    padding-left: 7vh;
+}
+
